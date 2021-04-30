@@ -4,7 +4,7 @@ target 'Economy Guide' do
   use_frameworks!
 
   # Pods for Economy Guide
-  pod 'TextFieldEffects'
+  # pod 'TextFieldEffects'
 
   target 'Economy GuideTests' do
     inherit! :search_paths

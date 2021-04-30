@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Counts View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="CountsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="CountsViewController" customModule="Economy_Guide" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="PV3-3i-nDT">
+                                <rect key="frame" x="0.0" y="218" width="414" height="275"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="275" id="GC9-uL-XO0"/>
+                                    <constraint firstAttribute="width" constant="414" id="HZH-Hg-VcK"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0Ej-ew-HcM">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="FcL-SX-rjM">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="3A1-nM-qMT">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXg-t9-and">
+                                <rect key="frame" x="135" y="137" width="144" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="PkC-R3-g02"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="144" id="x40-cu-GQc"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="144" id="xWq-O3-yZ7"/>
+                                </constraints>
+                                <state key="normal" title="Adicionar nova conta"/>
+                                <connections>
+                                    <action selector="insertCell:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hyl-8H-oZc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j1z-Cz-1vk">
+                                <rect key="frame" x="20" y="175" width="374" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="8gQ-NC-KCE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j1z-Cz-1vk" secondAttribute="trailing" constant="20" id="8Sy-Pf-oNh"/>
+                            <constraint firstItem="PV3-3i-nDT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="FgI-Rx-1Sd"/>
+                            <constraint firstItem="j1z-Cz-1vk" firstAttribute="top" secondItem="cXg-t9-and" secondAttribute="bottom" constant="8" id="OzY-8d-cJf"/>
+                            <constraint firstItem="cXg-t9-and" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Zvx-RI-EbL"/>
+                            <constraint firstItem="cXg-t9-and" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="93" id="cl3-VZ-KWb"/>
+                            <constraint firstItem="PV3-3i-nDT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="174" id="dZH-oA-fpd"/>
+                            <constraint firstItem="j1z-Cz-1vk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="txZ-9Z-DVj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="PV3-3i-nDT" id="Osl-gK-PWA"/>
+                        <outlet property="stateList" destination="j1z-Cz-1vk" id="fK8-bt-EXg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57.971014492753625" y="126.5625"/>
+        </scene>
+        <!--Register Count View Controller-->
+        <scene sceneID="YJI-Ix-TDT">
+            <objects>
+                <viewController storyboardIdentifier="RegisterCountViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lUb-iB-7dg" customClass="RegisterCountViewController" customModule="Economy_Guide" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5jG-aL-bYp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Data/de/Vencimento" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3qC-xT-agm">
+                                <rect key="frame" x="20" y="304" width="374" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="6GB-VN-V1M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nome do favorecido" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5je-IE-125">
+                                <rect key="frame" x="20" y="262" width="374" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="PlK-k7-CiG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="R$ Valor.da,conta" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YRe-np-Npo">
+                                <rect key="frame" x="20" y="220" width="254" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="184" id="QEx-e6-uzH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ceB-D1-g9v">
+                                <rect key="frame" x="347" y="220" width="51" height="31"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pago?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6p-fl-wRW">
+                                <rect key="frame" x="291" y="225" width="48" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="EeF-TU-nQF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Criando Registro de Contas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecl-9y-gRl">
+                                <rect key="frame" x="81.5" y="110" width="251" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ycw-sv-laB">
+                                <rect key="frame" x="160" y="389" width="94" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2sg-Sx-5zL"/>
+                                    <constraint firstAttribute="width" constant="94" id="shN-ru-Q4O"/>
+                                </constraints>
+                                <state key="normal" title="Criar Registro"/>
+                                <connections>
+                                    <action selector="createRegister:" destination="lUb-iB-7dg" eventType="touchUpInside" id="lIU-HM-kTA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="B6p-fl-wRW" firstAttribute="centerY" secondItem="ceB-D1-g9v" secondAttribute="centerY" id="Dff-es-cNh"/>
+                            <constraint firstItem="YRe-np-Npo" firstAttribute="centerX" secondItem="diP-fL-8bH" secondAttribute="centerX" constant="-60" id="HaD-OM-ubM"/>
+                            <constraint firstItem="ceB-D1-g9v" firstAttribute="leading" secondItem="B6p-fl-wRW" secondAttribute="trailing" constant="8" id="IDX-cL-dTk"/>
+                            <constraint firstItem="Ycw-sv-laB" firstAttribute="centerX" secondItem="diP-fL-8bH" secondAttribute="centerX" id="JRe-q7-za0"/>
+                            <constraint firstItem="5je-IE-125" firstAttribute="leading" secondItem="5jG-aL-bYp" secondAttribute="leadingMargin" id="MPq-tS-Qpy"/>
+                            <constraint firstItem="Ycw-sv-laB" firstAttribute="top" secondItem="3qC-xT-agm" secondAttribute="bottom" constant="51" id="ODV-O9-Ciw"/>
+                            <constraint firstItem="3qC-xT-agm" firstAttribute="top" secondItem="5je-IE-125" secondAttribute="bottom" constant="8" id="Y6Q-oL-BAZ"/>
+                            <constraint firstItem="3qC-xT-agm" firstAttribute="leading" secondItem="5je-IE-125" secondAttribute="leading" id="YOV-AJ-tVL"/>
+                            <constraint firstItem="ecl-9y-gRl" firstAttribute="top" secondItem="diP-fL-8bH" secondAttribute="top" constant="66" id="h9E-4F-VGy"/>
+                            <constraint firstItem="YRe-np-Npo" firstAttribute="top" secondItem="diP-fL-8bH" secondAttribute="top" constant="176" id="jIG-vf-qpo"/>
+                            <constraint firstItem="5je-IE-125" firstAttribute="leading" secondItem="YRe-np-Npo" secondAttribute="leading" id="ous-GL-QkD"/>
+                            <constraint firstItem="ecl-9y-gRl" firstAttribute="centerX" secondItem="diP-fL-8bH" secondAttribute="centerX" id="pum-9J-pdG"/>
+                            <constraint firstItem="ceB-D1-g9v" firstAttribute="top" secondItem="YRe-np-Npo" secondAttribute="top" id="rW2-bX-gWY"/>
+                            <constraint firstItem="3qC-xT-agm" firstAttribute="trailing" secondItem="5je-IE-125" secondAttribute="trailing" id="uTR-oK-NT5"/>
+                            <constraint firstItem="5je-IE-125" firstAttribute="top" secondItem="YRe-np-Npo" secondAttribute="bottom" constant="8" id="yWm-ak-5Kq"/>
+                            <constraint firstItem="B6p-fl-wRW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="YRe-np-Npo" secondAttribute="trailing" constant="8" symbolic="YES" id="ycv-Tc-Ijj"/>
+                            <constraint firstItem="diP-fL-8bH" firstAttribute="trailing" secondItem="ceB-D1-g9v" secondAttribute="trailing" constant="18" id="yoN-De-dcw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="diP-fL-8bH"/>
+                    </view>
+                    <connections>
+                        <outlet property="dueDate" destination="3qC-xT-agm" id="PC3-Fp-myw"/>
+                        <outlet property="name" destination="5je-IE-125" id="0rK-Ld-ecE"/>
+                        <outlet property="switchPayment" destination="ceB-D1-g9v" id="xsl-WU-KyX"/>
+                        <outlet property="value" destination="YRe-np-Npo" id="b82-jL-Hmg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Ta-eP-BRF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="666.66666666666674" y="126.5625"/>
+        </scene>
+    </scenes>
+</document>
