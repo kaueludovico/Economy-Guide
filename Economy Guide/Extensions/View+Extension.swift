@@ -22,10 +22,10 @@ extension UIView {
             leadingAnchor.constraint(equalTo: leading, constant: padding.left).isActive = true
         }
         if let bottom = bottom {
-            bottomAnchor.constraint(equalTo: bottom, constant: padding.bottom).isActive = true
+            bottomAnchor.constraint(equalTo: bottom, constant: -padding.bottom).isActive = true
         }
         if let trailing = trailing {
-            trailing.constraint(equalTo: trailing, constant: padding.right).isActive = true
+            trailing.constraint(equalTo: trailing, constant: -padding.right).isActive = true
         }
         
         if size.width != 0 {

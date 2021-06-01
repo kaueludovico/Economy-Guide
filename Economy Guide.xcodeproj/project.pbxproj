@@ -23,6 +23,7 @@
 		0B413D6B26365A9A00B5A08C /* RegisterCountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B413D6A26365A9A00B5A08C /* RegisterCountsViewController.swift */; };
 		0B99405226286B7A00EE49AF /* BaseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B99405126286B7A00EE49AF /* BaseViewCell.swift */; };
 		0B99405526286C4300EE49AF /* CountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B99405426286C4300EE49AF /* CountCollectionViewCell.swift */; };
+		0BBD8CC226630D2400E63493 /* CountDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD8CC126630D2400E63493 /* CountDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		0B413D6A26365A9A00B5A08C /* RegisterCountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCountsViewController.swift; sourceTree = "<group>"; };
 		0B99405126286B7A00EE49AF /* BaseViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewCell.swift; sourceTree = "<group>"; };
 		0B99405426286C4300EE49AF /* CountCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountCollectionViewCell.swift; sourceTree = "<group>"; };
+		0BBD8CC126630D2400E63493 /* CountDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				0B37059D2625D7B3008C4B42 /* CountsViewController.swift */,
 				0B413D6A26365A9A00B5A08C /* RegisterCountsViewController.swift */,
+				0BBD8CC126630D2400E63493 /* CountDetailsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				0B413D672636592200B5A08C /* Storyboarded.swift in Sources */,
 				0B99405226286B7A00EE49AF /* BaseViewCell.swift in Sources */,
 				0B413D652636584900B5A08C /* Coordinator.swift in Sources */,
+				0BBD8CC226630D2400E63493 /* CountDetailsViewController.swift in Sources */,
 				0B413D6B26365A9A00B5A08C /* RegisterCountsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
