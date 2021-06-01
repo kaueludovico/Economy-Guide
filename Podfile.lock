@@ -1,16 +1,16 @@
 PODS:
-  - TextFieldEffects (1.6.0)
+  - Nimble (9.2.0)
 
 DEPENDENCIES:
-  - TextFieldEffects
+  - Nimble
 
 SPEC REPOS:
   trunk:
-    - TextFieldEffects
+    - Nimble
 
 SPEC CHECKSUMS:
-  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
+  Nimble: 4f4a345c80b503b3ea13606a4f98405974ee4d0b
 
-PODFILE CHECKSUM: ab9c8edfe28edca3d37d3b173f824f2fcfc4df59
+PODFILE CHECKSUM: ffe470c188b60ac0ecef696b6f0609a2e2d71ebf
 
 COCOAPODS: 1.10.1

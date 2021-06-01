@@ -9,6 +9,7 @@ target 'Economy Guide' do
   target 'Economy GuideTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Nimble'
   end
 
   target 'Economy GuideUITests' do

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,9 @@
 		0B99405226286B7A00EE49AF /* BaseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B99405126286B7A00EE49AF /* BaseViewCell.swift */; };
 		0B99405526286C4300EE49AF /* CountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B99405426286C4300EE49AF /* CountCollectionViewCell.swift */; };
 		0BBD8CC226630D2400E63493 /* CountDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD8CC126630D2400E63493 /* CountDetailsViewController.swift */; };
+		718366B9840D8C92A75CC237 /* Pods_Economy_Guide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8241237C3DC922C52612000F /* Pods_Economy_Guide.framework */; };
+		BC13C1E10287C979A495E061 /* Pods_Economy_GuideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D512BD009060FBE06095D0 /* Pods_Economy_GuideTests.framework */; };
+		E6ADC90DD453411AC55C6B7A /* Pods_Economy_Guide_Economy_GuideUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88B26613377A31B6410953C /* Pods_Economy_Guide_Economy_GuideUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,15 @@
 		0B99405126286B7A00EE49AF /* BaseViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewCell.swift; sourceTree = "<group>"; };
 		0B99405426286C4300EE49AF /* CountCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountCollectionViewCell.swift; sourceTree = "<group>"; };
 		0BBD8CC126630D2400E63493 /* CountDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDetailsViewController.swift; sourceTree = "<group>"; };
+		0D151F33E9D1038B6D232AC6 /* Pods-Economy Guide-Economy GuideUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Economy Guide-Economy GuideUITests.release.xcconfig"; path = "Target Support Files/Pods-Economy Guide-Economy GuideUITests/Pods-Economy Guide-Economy GuideUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0E05B212804E43EB0074EDC3 /* Pods-Economy Guide-Economy GuideUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Economy Guide-Economy GuideUITests.debug.xcconfig"; path = "Target Support Files/Pods-Economy Guide-Economy GuideUITests/Pods-Economy Guide-Economy GuideUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20926D6B2F395AA91AFF4674 /* Pods-Economy GuideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Economy GuideTests.release.xcconfig"; path = "Target Support Files/Pods-Economy GuideTests/Pods-Economy GuideTests.release.xcconfig"; sourceTree = "<group>"; };
+		45D512BD009060FBE06095D0 /* Pods_Economy_GuideTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Economy_GuideTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8241237C3DC922C52612000F /* Pods_Economy_Guide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Economy_Guide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FEBD84658196EA8D535E284 /* Pods-Economy Guide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Economy Guide.debug.xcconfig"; path = "Target Support Files/Pods-Economy Guide/Pods-Economy Guide.debug.xcconfig"; sourceTree = "<group>"; };
+		A88B26613377A31B6410953C /* Pods_Economy_Guide_Economy_GuideUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Economy_Guide_Economy_GuideUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5CFD06A1650B1E90BD2708B /* Pods-Economy GuideTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Economy GuideTests.debug.xcconfig"; path = "Target Support Files/Pods-Economy GuideTests/Pods-Economy GuideTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F705930F5954DCB7B0337E6A /* Pods-Economy Guide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Economy Guide.release.xcconfig"; path = "Target Support Files/Pods-Economy Guide/Pods-Economy Guide.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				718366B9840D8C92A75CC237 /* Pods_Economy_Guide.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC13C1E10287C979A495E061 /* Pods_Economy_GuideTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6ADC90DD453411AC55C6B7A /* Pods_Economy_Guide_Economy_GuideUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +135,7 @@
 				0B3705BD2625D7BB008C4B42 /* Economy GuideUITests */,
 				0B3705972625D7B3008C4B42 /* Products */,
 				5AB53B921B2BA29494C5F056 /* Pods */,
+				92CB9DDC220FFF222BF8F172 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -207,8 +223,24 @@
 		5AB53B921B2BA29494C5F056 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				9FEBD84658196EA8D535E284 /* Pods-Economy Guide.debug.xcconfig */,
+				F705930F5954DCB7B0337E6A /* Pods-Economy Guide.release.xcconfig */,
+				0E05B212804E43EB0074EDC3 /* Pods-Economy Guide-Economy GuideUITests.debug.xcconfig */,
+				0D151F33E9D1038B6D232AC6 /* Pods-Economy Guide-Economy GuideUITests.release.xcconfig */,
+				D5CFD06A1650B1E90BD2708B /* Pods-Economy GuideTests.debug.xcconfig */,
+				20926D6B2F395AA91AFF4674 /* Pods-Economy GuideTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		92CB9DDC220FFF222BF8F172 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8241237C3DC922C52612000F /* Pods_Economy_Guide.framework */,
+				A88B26613377A31B6410953C /* Pods_Economy_Guide_Economy_GuideUITests.framework */,
+				45D512BD009060FBE06095D0 /* Pods_Economy_GuideTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B3705C32625D7BB008C4B42 /* Build configuration list for PBXNativeTarget "Economy Guide" */;
 			buildPhases = (
+				C4E7FFDF55A08E81075CD37F /* [CP] Check Pods Manifest.lock */,
 				0B3705922625D7B3008C4B42 /* Sources */,
 				0B3705932625D7B3008C4B42 /* Frameworks */,
 				0B3705942625D7B3008C4B42 /* Resources */,
@@ -235,9 +268,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B3705C62625D7BB008C4B42 /* Build configuration list for PBXNativeTarget "Economy GuideTests" */;
 			buildPhases = (
+				07ACA4F3E322A339E1A4557E /* [CP] Check Pods Manifest.lock */,
 				0B3705AB2625D7BB008C4B42 /* Sources */,
 				0B3705AC2625D7BB008C4B42 /* Frameworks */,
 				0B3705AD2625D7BB008C4B42 /* Resources */,
+				54D94CFE13DEC33FEA534DE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +288,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B3705C92625D7BB008C4B42 /* Build configuration list for PBXNativeTarget "Economy GuideUITests" */;
 			buildPhases = (
+				358CD86CB05808111417CA38 /* [CP] Check Pods Manifest.lock */,
 				0B3705B62625D7BB008C4B42 /* Sources */,
 				0B3705B72625D7BB008C4B42 /* Frameworks */,
 				0B3705B82625D7BB008C4B42 /* Resources */,
@@ -336,6 +372,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07ACA4F3E322A339E1A4557E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Economy GuideTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		358CD86CB05808111417CA38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Economy Guide-Economy GuideUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54D94CFE13DEC33FEA534DE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Economy GuideTests/Pods-Economy GuideTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Economy GuideTests/Pods-Economy GuideTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Economy GuideTests/Pods-Economy GuideTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E7FFDF55A08E81075CD37F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Economy Guide-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B3705922625D7B3008C4B42 /* Sources */ = {
@@ -524,6 +646,7 @@
 		};
 		0B3705C42625D7BB008C4B42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEBD84658196EA8D535E284 /* Pods-Economy Guide.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -542,6 +665,7 @@
 		};
 		0B3705C52625D7BB008C4B42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F705930F5954DCB7B0337E6A /* Pods-Economy Guide.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -560,8 +684,9 @@
 		};
 		0B3705C72625D7BB008C4B42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5CFD06A1650B1E90BD2708B /* Pods-Economy GuideTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Economy GuideTests/Info.plist";
@@ -581,8 +706,9 @@
 		};
 		0B3705C82625D7BB008C4B42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20926D6B2F395AA91AFF4674 /* Pods-Economy GuideTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Economy GuideTests/Info.plist";
@@ -602,8 +728,9 @@
 		};
 		0B3705CA2625D7BB008C4B42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E05B212804E43EB0074EDC3 /* Pods-Economy Guide-Economy GuideUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Economy GuideUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -621,8 +748,9 @@
 		};
 		0B3705CB2625D7BB008C4B42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D151F33E9D1038B6D232AC6 /* Pods-Economy Guide-Economy GuideUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Economy GuideUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
